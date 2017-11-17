@@ -4,6 +4,9 @@ CREATE TABLE `task` (
   `tname` varchar(255) DEFAULT NULL,
   `turl` varchar(255) DEFAULT NULL,
   `updatetime` datetime DEFAULT NULL,
+
+
+
   `runable` char(1) DEFAULT '0',
   `nextstart` datetime DEFAULT NULL,
   `sleeptime` varchar(255) DEFAULT NULL,
